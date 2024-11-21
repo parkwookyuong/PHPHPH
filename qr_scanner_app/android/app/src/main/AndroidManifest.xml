@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 카메라 권한 추가 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 인터넷 권한 추가 (파일 다운로드 등을 위해 필요할 수 있음) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 카메라 하드웨어 사용 여부 설정 -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <application
+        android:label="qr_scanner_app"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+
+            <meta-data
+                android:name="flutterEmbedding"
+                android:value="2" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

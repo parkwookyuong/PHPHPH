@@ -1,0 +1,14 @@
+beautifulsoup4==4.12.3
+dnspython==2.7.0
+fastapi==0.115.5
+joblib==1.4.0
+pandas==2.2.3
+pydantic==2.10.0
+pymongo==4.6.3
+python_whois==0.9.3
+Requests==2.32.3
+selenium==4.26.1
+tldextract==5.1.2
+webdriver_manager==4.0.1
+webdriver_manager==4.0.2
+xgboost==2.1.2

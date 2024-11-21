@@ -1,0 +1,13 @@
+beautifulsoup4
+dnspython
+fastapi
+joblib
+pandas
+pydantic
+pymongo
+python_whois
+Requests
+selenium
+tldextract
+webdriver_manager
+xgboost

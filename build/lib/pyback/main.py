@@ -56,6 +56,7 @@ async def check_url(request: URLRequest):
         "prediction": None,
         "message": "URL found in database; no ML verification needed."
     }
+    
 # 서버 실행 함수
 def run_server():
     uvicorn.run("pyback.main:app", host="127.0.0.1", port=8000, reload=True)

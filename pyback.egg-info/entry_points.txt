@@ -1,0 +1,2 @@
+[console_scripts]
+phpyphishing = pyback.main:run_server

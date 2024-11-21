@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyback
+Version: 1.0.0
+Summary: Phishing detection using FastAPI and XGBoost
+Home-page: https://github.com/parkwookyong/PHPHPH
+Author: Your Name
+Author-email: your_email@example.com
+Requires-Python: >=3.8

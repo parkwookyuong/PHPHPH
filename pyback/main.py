@@ -24,7 +24,7 @@ app.add_middleware(
 )
 
 # 모델 초기화
-model_path = 'C:/Users/dnrud/OneDrive/Desktop/CCIT2/Phishing_model_02.pkl'
+model_path = 'pyback/Phishing_model_02.pkl'
 phishing_model = PhishingDetectionModel(model_path)
 
 # 요청 데이터 모델
